@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #e3f6ff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(11, 11, 166);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.navig a {
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(11, 11, 166);
+    padding-left: 50px;
+}
+
+.navig a:hover {
+    color: blueviolet;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/21.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main h2 span {
+    display: inline-block;
+    color: #36D7FF;
+    font-weight: 600;
+    font-size: 3em;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.main h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.main-button {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: #27b9dd;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 15px 35px;
+    margin-bottom: 45px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+
+.main-button:hover {
+    background-color: #1ca2c4;
+    transform: scale(1.1);
+}
+
+.social-icon a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2c5fee;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.4em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+
+.projects h2 {
+    color: #fff;
+
+}
+
+.projects {
+    background: url(images/5555.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.projects .content {
+    margin-top: 45px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 3px solid #fff;
+    min-height: 14em;
+    width: 21.25em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: rgb(11, 11, 166);
+}
+
+.more-details:hover {
+    color: blueviolet;
+}
+
+.cards-contact .icon {
+    font-size: 4.5em;
+}
+
+.cards-contact .info h3 {
+    font-size: 1.5em;
+    color: #000;
+}
+
+.cards-contact .info p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.footer {
+    background: url(images/5555.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+}
+
+.footer p {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.footer span {
+    color: #36D7FF;
+}
